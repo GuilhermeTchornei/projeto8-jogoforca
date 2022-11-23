@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto:wght@300;400;500;700&display=swap');
+*, body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.jogo{
+    width: 100%;
+    display: flex;
+    padding: 50px 40px;
+    justify-content: space-between;
+}
+
+.jogo div{
+    width: auto;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.jogo img{
+    width: 400px;
+}
+
+.jogo button{
+    width: 200px;
+    height: 60px;
+
+    background-color: #27AE60;
+    border: 0px;
+    border-radius: 8px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.jogo strong{
+    width: fit-content;
+    height: 68px;
+
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 6px;
+}
+
+.letras{
+    max-width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.letras button{
+    width: 40px;
+    height: 40px;
+
+    margin: 6px;
+
+    border: 1px #7AA7C7 solid;
+    border-radius: 3px;
+    background-color: #E1ECF4;
+
+    color: #3C76A1;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.letras button.selecionada{
+    background-color: #9FAAB5;
+    color: #798A9F;
+}
+.chute{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.chute label{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.chute input{
+    width: 350px;
+    height: 40px;
+    border: 1px #CCCCCC solid;
+    border-radius: 3px;
+
+    box-shadow: 2px 2px 5px  rgba(0, 0, 0, .25);
+
+    margin: 0px 15px;
+}
+
+.chute button{
+    width: 100px;
+    height: 40px;
+
+    background-color: #E1ECF4;
+    border: 1px #7AA7C7 solid;
+    border-radius: 3px;
+
+    color: #3C76A1;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.verde{
+    color: #27AE60 !important;
+}
+.vermelho{
+    color:#FF0000 !important;
+}
